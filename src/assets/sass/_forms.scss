@@ -1,0 +1,28 @@
+
+.f-group{
+    display: flex;
+    margin-bottom: 5px;
+    .append, .prepend{
+        height: 40px;
+        line-height: 40px;
+        width: 30px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        text-align: center;
+    }
+    label{
+        font-weight: bold;
+    }
+}
+input[type="number"], input[type="text"]{
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid #DCDEDD;
+    height: 42px;
+    width: 100%;
+}
+input[type="radio"] {
+
+}

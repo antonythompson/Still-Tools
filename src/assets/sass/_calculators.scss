@@ -1,0 +1,28 @@
+
+.water-dilution-calculator{
+    label{
+        width: 140px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        line-height: 40px;
+    }
+    .prepend.start_alcohol{
+        position:relative;
+        top: 25px;
+    }
+    .buttons{
+        div{
+            width: 30%;
+            float: left;
+            a{
+                width: 100%;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        div:first-child{
+            width: 70%;
+            padding-right: 15px;
+        }
+    }
+}
